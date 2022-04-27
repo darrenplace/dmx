@@ -1,10 +1,9 @@
 const DMX = require('./index');
-
+const config = require('./config');
 const dmx = new DMX();
 
-// var universe = dmx.addUniverse('demo', 'enttec-open-usb-dmx', '/dev/cu.usbserial-6AVNHXS8')
 // const universe = dmx.addUniverse('demo', 'socketio', null, {port: 17809, debug: true});
-const universe = dmx.addUniverse('demo', 'null');
+var universe = dmx.addUniverse('demo', config.driver, config.deviceId);
 
 let on = false;
 
