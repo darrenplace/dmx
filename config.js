@@ -3,4 +3,4 @@ const config = {
   deviceId: '/dev/tty.usbserial-AB0MRR2X'
 }
 
-export default config;
+module.exports = config;
