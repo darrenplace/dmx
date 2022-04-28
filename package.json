@@ -3,7 +3,7 @@
   "version": "0.2.5",
   "author": "Sebastian Wiedenroth <wiedi@frubar.net>",
   "description": "A nodejs DMX library",
-  "url": "https://github.com/node-dmx/dmx",
+  "url": "https://github.com/darrenplace/node-dmx",
   "scripts": {
     "start": "node poc.js",
     "td": "./launchTd.sh",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/node-dmx/dmx.git"
+    "url": "https://github.com/darrenplace/node-dmx.git"
   },
   "keywords": [
     "DMX",
